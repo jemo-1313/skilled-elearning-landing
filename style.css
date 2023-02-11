@@ -1,0 +1,510 @@
+
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;  
+    padding: 16px;
+    padding-bottom: 0px;
+}
+
+.head-box {  
+    margin-top: 16px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 38px;
+   
+}
+
+.courses-box{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+}
+
+
+.box-1 {
+    margin-top: 40px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+   
+}
+
+.h-1 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    font-style: normal;
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-left: 28px;
+    padding-right: 29px;
+    padding-bottom: 32px; 
+}
+
+
+.conteiner {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: repeat(1, 1fr); 
+    margin-top: 40px;
+    padding-left: 28px;
+    padding-right: 29px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+
+
+.text-height {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 25px;
+    color: #13183F;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.text-middle {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #83869A;
+}
+
+.text-low {
+    
+    color: #F74780;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.text-1{
+    font-size: 28px;  
+    font-family: 'plus jakarta sans';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35.28px;
+    color: #13183F;
+}
+
+.footer-box{
+    margin-top: 80px;
+    background-color: #13183F;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+
+.text-2{ 
+    font-family: 'plus jakarta sans';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35.28px;
+    color: #FFFFFF;
+    padding-top: 43px;
+    padding-bottom: 42px;
+    margin-left: 16px;
+ }
+    
+ .button-header-style{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+}
+
+
+.button-header {
+    border: none;
+    background-color: rgba(19, 24, 63, 1);
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    cursor: pointer;
+   
+}
+
+.button-header-2 {
+    border: none;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    cursor: pointer;
+    
+}
+
+.button-3{
+    border: none;
+    margin-right: 16px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    width: 140px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.button-header:hover{
+    background-color: rgba(102, 108, 163, 1);
+}
+
+.button-header-2:hover{
+    background:  linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);;
+}
+
+.button-3:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);;
+}
+
+
+.button-header-style-2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    line-height: 16px;
+
+}
+
+.button-header-style-3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.title-text{
+    
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50.4px;
+    color: #13183F;
+
+}
+
+.main-text{
+    
+    color: #83869A;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 26px;
+    padding-bottom: 24px;
+    
+}
+
+.img-girl-box{
+    display: flex;
+    justify-content: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+
+.img-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 46px;
+    
+}
+
+.img-animation{
+    margin-top: -24px;
+    padding-left: 32px;
+    
+}
+
+.img-tablet{
+    display: none;
+}
+
+.img-desktop{
+    display: none;
+}
+
+
+
+    @media (min-width: 768px ){
+
+
+    body{
+        position: relative;
+        overflow-x: hidden;
+    }
+     
+   
+    .main-box{
+        padding-top: 24px;
+        padding-left: 39px;
+        padding-right: 40px;
+    }
+
+    .head-box{
+        margin-top: 0px;
+    }
+    .text-1{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-family: 'plus Jakarta Sans';
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 35.28px;
+    }
+    
+    .text-box{
+        display: flex;
+        flex-direction: row;
+        padding-top: 99px;
+    }
+
+    .text-box-2{
+        width: 398px;
+    }
+
+    .courses-box {
+        margin-top: 168px;
+        display: grid;
+        gap: 10px; 
+        row-gap: 16px;
+        grid-template-columns: repeat(2, 1fr);  
+        padding-top: 24px;
+    }
+
+    .footer-box{
+        margin-top: 86px;
+    }
+
+
+    .text-2{
+        margin-left: 40px;
+    }
+
+    .button-3{
+        margin-right: 40px;
+    }
+
+
+    .img-mobile {
+        display: none;
+    }
+    
+
+    .img-girl-box{
+        /* width: 640px; */
+
+     }
+
+
+    .img-tablet{
+        z-index: -4;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(40%, -10%);    
+    }
+
+    
+    
+}  
+
+
+
+@media  (min-width: 1440px){
+
+
+    
+    body{
+        
+    }
+
+    .head-box{
+        
+    }
+
+    .main-box{
+       padding-left: 165px;
+       padding-right: 165px;
+        
+    }
+
+    .text-box{
+        padding-top: 172px;
+    }
+
+    .courses-box {
+        margin-top: 250px;
+        /* margin: 0px; */
+        padding: 0PX;
+        display: grid;
+        column-gap: 30px;
+        row-gap: 80px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .box-1{
+        width: 350px;
+        border-radius: 15px;
+        margin: 0px;
+        padding: 0ps;
+    }
+
+    .conteiner { 
+        width: 350px;
+        border-radius: 15px;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 15px;
+    }
+
+    .text-box-2{
+        width: 457px;
+        
+    }
+
+    .title-text{
+        width: 457px;
+        font-size: 56px;
+        line-height: 71px;
+    }
+
+    .main-text{
+        margin-top: 29px;
+        padding-bottom: 40px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .button-header-2{
+        width: 167px;
+        height: 63p;
+        border-radius: 31.5px;
+    }
+
+    .button-header-style-2{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .h-1{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+   
+
+    .img-mobile{
+        display: none;
+    }
+
+    .img-tablet{
+        display: none;
+    }
+    
+    .img-desktop{
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate( 30%,-16%);
+        z-index: -3;
+    }
+
+    .footer-box{
+        margin-top: 140PX;
+        /* justify-content: space-between; */
+    }
+   
+    .text-2{
+        margin-left: 165px;
+        width: 111.17px;
+        height: 27.68px;
+    }
+
+    .button-3{
+        width: 167px;
+        height: 56px;
+        padding: 0px;
+        margin-right: 165px;
+        
+    }
+
+    .button-header-style-3{
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-right: 31px;
+        padding-left: 32px;
+    }
+
+
+    .h-1{
+        padding-top: 64px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 138px;
+    }
+
+
+    .text-height {
+        
+        font-size: 24px;
+        line-height: 30.24px;
+        padding-top: 24px;
+        padding-bottom: 16px;
+        padding-left: 32px;
+    }
+    
+    .text-middle {
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 0px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 52px;
+    }
+        
+    
+    .text-low {
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 0px;
+        padding-left: 32px;
+        padding-bottom: 40px;
+    }
+
+} 
